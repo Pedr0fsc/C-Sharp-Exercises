@@ -1,0 +1,5 @@
+c:\Users\Aluno\Desktop\C-Sharp-Exercises\Geometric-Shape\obj\Debug\net8.0\Forma-Geometrica.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Aluno\Desktop\C-Sharp-Exercises\Geometric-Shape\obj\Debug\net8.0\Forma-Geometrica.AssemblyInfoInputs.cache
+c:\Users\Aluno\Desktop\C-Sharp-Exercises\Geometric-Shape\obj\Debug\net8.0\Forma-Geometrica.AssemblyInfo.cs
+c:\Users\Aluno\Desktop\C-Sharp-Exercises\Geometric-Shape\obj\Debug\net8.0\Forma-Geometrica.csproj.CoreCompileInputs.cache
+c:\Users\Aluno\Desktop\C-Sharp-Exercises\Geometric-Shape\obj\Debug\net8.0\Forma-Geometrica.sourcelink.json
