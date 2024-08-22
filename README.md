@@ -1,0 +1,1 @@
+# Para acessar as atividades e roda-las, abra cada pasta separadamente no VSCode e no terminal digite "dotnet run"

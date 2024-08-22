@@ -1,0 +1,22 @@
+@model List<Messages.Models.Message>
+
+<h2>Send a Message</h2>
+<form asp-action="Index" method="post">
+    <div>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" />
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="Email" />
+    </div>
+    <div>
+        <label for="Content">Message:</label>
+        <input type="text" id="Content" name="Content" />
+    </div>
+    <button type="submit">Send</button>
+</form>
+
+<div>
+    <a class="btn btn-blue" href="message/Info">View message</a>
+</div>

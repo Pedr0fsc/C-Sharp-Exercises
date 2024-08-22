@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Atv-5-Forma_Geometrica/1.0.0": {
+        "runtime": {
+          "Atv-5-Forma_Geometrica.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Atv-5-Forma_Geometrica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

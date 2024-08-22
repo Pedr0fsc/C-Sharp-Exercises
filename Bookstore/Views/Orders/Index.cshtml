@@ -1,0 +1,35 @@
+@model IEnumerable<Bookstore.Models.Order>
+
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h2>Orders</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Status</th>
+            <th>Entry Date</th>
+            <th>Responsible</th>
+            <th>Client</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>#@order.OrderId</td>
+                <td>@order.Status</td>
+                <td>@order.EntryDate.ToString("dd/MM/yyyy")</td>
+                <td>@order.Responsible</td>
+                <td>@order.Client.Name</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = order.OrderId })" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

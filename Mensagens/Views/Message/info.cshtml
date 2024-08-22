@@ -1,0 +1,20 @@
+@model List<Messages.Models.Message>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="my-3 p-3 rounded shadow-sm">
+        <h6 class="border-bottom pb-2 mb-0">Received Messages</h6>
+        @foreach (var msg in Model)
+        {
+            <div class="d-flex pt-3">
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                        <strong>@msg.Name</strong>
+                    </div>
+                    <span class="d-block">@msg.Content</span>
+                    <span class="d-block">@msg.Email | @msg.Date</span>
+                </div>
+            </div>
+        }
+    </div>
+}

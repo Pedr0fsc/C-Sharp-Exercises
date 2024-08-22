@@ -1,0 +1,15 @@
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\bin\Debug\net8.0\Atv-5-Forma_Geometrica.exe
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\bin\Debug\net8.0\Atv-5-Forma_Geometrica.deps.json
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\bin\Debug\net8.0\Atv-5-Forma_Geometrica.runtimeconfig.json
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\bin\Debug\net8.0\Atv-5-Forma_Geometrica.dll
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\bin\Debug\net8.0\Atv-5-Forma_Geometrica.pdb
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\Atv-5-Forma_Geometrica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\Atv-5-Forma_Geometrica.AssemblyInfoInputs.cache
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\Atv-5-Forma_Geometrica.AssemblyInfo.cs
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\Atv-5-Forma_Geometrica.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\Atv-5-Forma_Geometrica.sourcelink.json
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\Atv-5-Forma_Geometrica.dll
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\refint\Atv-5-Forma_Geometrica.dll
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\Atv-5-Forma_Geometrica.pdb
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\Atv-5-Forma_Geometrica.genruntimeconfig.cache
+C:\Users\Aluno\Desktop\C-Sharp-Exercises\Atv-5-Forma_Geometrica\obj\Debug\net8.0\ref\Atv-5-Forma_Geometrica.dll

@@ -1,0 +1,113 @@
+@model Bookstore.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h2>Order Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            ID
+        </dt>
+        <dd class = "col-sm-10">
+            #@Model.OrderId
+        </dd>
+        <dt class = "col-sm-2">
+            Status
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Status
+        </dd>
+        <dt class = "col-sm-2">
+            Entry Date
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.EntryDate.ToString("dd/MM/yyyy")
+        </dd>
+        <dt class = "col-sm-2">
+            Responsible
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Responsible
+        </dd>
+        <dt class = "col-sm-2">
+            Client
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Client.Name
+        </dd>
+        <dt class = "col-sm-2">
+            CPF
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Client.CPF
+        </dd>
+        <dt class = "col-sm-2">
+            <Address></Address>
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Client.Address
+        </dd>
+        <dt class = "col-sm-2">
+            Telephone
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Client.Telephone
+        </dd>
+        <dt class = "col-sm-2">
+            Email
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Client.Email
+        </dd>
+        <dt class = "col-sm-2">
+            Item
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Item.Description
+        </dd>
+        <dt class = "col-sm-2">
+            Valor
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Item.Value.ToString("C")
+        </dd>
+        <dt class = "col-sm-2">
+            Supplier
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Supplier.CompanyName
+        </dd>
+        <dt class = "col-sm-2">
+            Supplier Address
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Supplier.Address
+        </dd>
+        <dt class = "col-sm-2">
+            Discount Margin
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Supplier.DiscountMargin.ToString("P")
+        </dd>
+        <dt class = "col-sm-2">
+            Tax Regime
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Supplier.TaxRegime
+        </dd>
+        <dt class = "col-sm-2">
+            CNPJ
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Supplier.CNPJ
+        </dd>
+    </dl>
+</div>
+<div>
+    <a href="@Url.Action("Index")" class="btn btn-primary">Back</a>
+</div>
